@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Course2Calendar",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Full-stack AI agent pipeline that scrapes course syllabi and exports deadlines to calendars."
+  },
+  {
+    "title": "SoCalGuessr",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Computer vision model using ResNet-18 to classify Southern California cities from street view images."
+  },
+  {
+    "title": "LoL Match Predictor",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Random Forest Classifier predicting professional League of Legends match outcomes based on 15-minute metrics."
+  },
+  {
+    "title": "BeatByBeat",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Full-stack music guessing game integrating Spotify and Deezer APIs for interactive user experiences."
+  },
+  {
+    "title": "Project #5",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder description"
+  },
+  {
+    "title": "Project #6",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder description"
+  },
+  {
+    "title": "Project #7",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder description"
+  },
+  {
+    "title": "Project #8",
+    "year": 2022,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder description"
+  },
+  {
+    "title": "Project #9",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder description"
+  },
+  {
+    "title": "Project #10",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder description"
+  },
+  {
+    "title": "Project #11",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder description"
+  },
+  {
+    "title": "Project #12",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder description"
+  }
+]
