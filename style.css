@@ -166,3 +166,92 @@ em {
   font-size: 2rem;
   text-align: left;
 }
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+  flex-shrink: 0;
+}
+
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+#projects-pie-plot path {
+  transition: opacity 300ms, fill 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+
+.selected:is(path) {
+  fill: var(--color);
+}
+
+.viz-container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 0.75em;
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.legend-item.selected {
+  font-weight: bold;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  border-radius: 3px;
+  background-color: var(--color);
+  flex-shrink: 0;
+}
+
+.searchBar {
+  display: block;
+  width: 100%;
+  max-width: 30em;
+  padding: 0.5em 0.75em;
+  margin-block: 1.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 200ms;
+}
+
+.searchBar:focus {
+  border-color: #666;
+}
+
+.project-year {
+  font-family: Baskerville, Georgia, serif;
+  font-variant-numeric: oldstyle-nums;
+  font-size: 0.85em;
+  color: #888;
+  margin-top: 0.25em;
+}
